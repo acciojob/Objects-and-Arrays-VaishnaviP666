@@ -8,7 +8,7 @@ const person = {
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 var team =players["reference"];
 
-int team1[] = new int[players.length];
+var team1[] = new int[players.length];
 
 for (int i = 0; i < players.length; i++)
             System.out.print(players[i] + " ");
@@ -17,7 +17,7 @@ for (int i = 0; i < players.length; i++)
         for (int i = 0; i < team1.length; i++)
             System.out.print(team1[i] + " ");
 
-int cap1[] = new int[person.length];
+var cap1[] = new int[person.length];
 
 for (int i = 0; i < person.length; i++)
             System.out.print(person[i] + " ");
